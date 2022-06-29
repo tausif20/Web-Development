@@ -1,0 +1,24 @@
+console.log("Strings Functions");
+const greetings = "Good";
+const greetings2 = "Morning";
+console.log(greetings + " " + greetings2);
+
+greet = greetings.concat(" ", greetings2, " All");
+console.log(greet);
+
+console.log(greet.toUpperCase());
+
+console.log(greet.indexOf("good"));
+console.log(greet.charAt(3));
+console.log(greet.endsWith("l"));
+console.log(greet.includes("or"));
+// good  0 1 2 3 --> 0 0 
+console.log(greet.substring(1, 4));
+console.log(greet.substr(1, 4));
+console.log(greet.slice(0, 4));
+
+arr = greet.split(" ");
+console.log(arr);
+
+// replace --- first occurance replaced
+
