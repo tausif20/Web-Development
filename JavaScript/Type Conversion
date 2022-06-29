@@ -1,0 +1,36 @@
+console.log("Type Conversion & Type coercion");
+
+let myVar;
+myVar = 34;
+console.log(myVar, (typeof myVar));
+
+// Number to String
+myVar = String(34);
+console.log(myVar, (typeof myVar));
+
+let date = new Date();
+console.log(date, typeof (date));
+
+// Arrays
+let arr = [1, 2, 3, 4, 5];
+console.log(arr);
+console.log("Array Length is " + arr.length);
+
+let arr1 = String([1, 2, 3, 4, 5]);
+console.log(arr1);
+console.log("Array Length is " + arr1.length);
+
+// To String Method
+// we can convert into string using toString()
+let x = 8;
+console.log(x + 1);
+console.log(x.toString() + 1);
+
+
+
+// parseInt()
+// parseString()
+let num = 34.0183;
+console.log(num);
+console.log(num.toFixed());
+console.log(num.toFixed(2));
